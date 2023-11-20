@@ -20,7 +20,7 @@ header {
     background-color: rgb(43, 41, 52);
     position: fixed;
     width: 100%;
-   
+    z-index: 9999;
 }
 header .container {
     display: flex;
