@@ -1,0 +1,616 @@
+.container {
+    width: 100%;
+    margin: auto;
+    padding-inline: 15px;
+}
+body {
+    margin: 0;
+   
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+header {
+    background-color: rgb(43, 41, 52);
+    position: fixed;
+    width: 100%;
+   
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-link-1 {
+    color: white;
+}
+nav {
+    display: flex;
+}
+nav a {
+    padding: 10px;
+}
+button {
+    width: 40px;
+    background-color: rgb(43, 41, 52);
+    border: 0px;
+}
+.nav-link {
+   display:none;
+    
+}
+.download-search-box {
+    display: none;
+}
+.search-box {
+    border: 1px solid rgb(62, 61, 61);
+    background-color: rgb(70, 74, 76);
+}
+.search-box button {
+    background: transparent;
+    border: 0;
+}
+.search-box input {
+    width: 70px;
+    background-color: transparent;
+    border: 0;
+}
+.notification {
+    background-color: rgb(38, 37, 44);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    padding-top: 50px;
+  
+}
+.notification a {
+    color: blue;
+}
+.welcom-section  {
+    background-color: rgb(43, 41, 52);
+}
+.welcom-section h1 {
+    margin: 0;
+}
+.daunload-col {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    
+    
+}
+
+.cod-editing {
+    font-weight: unset;
+    font-size: 40px;
+}
+.free {
+    color: gray;
+    font-size: 17px;
+    
+}
+.daunload {
+    display:inline-block;
+    color: white;
+    background-color: rgb(4, 95, 186);
+    padding: 20px; 
+    cursor: pointer;  
+}
+.stable {
+    font-size: 10px;
+}
+.arrow-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.arrow {
+    background-color: rgb(2, 102, 201);
+    width: 40px;
+    padding-top:23px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.tooltips {
+    display: flex;
+    position: relative;
+    width: 280px;
+    justify-content:center;
+    background-color: rgb(34, 35, 37);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(46, 114, 209);
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.tooltips a {
+    
+    
+    color: gray;
+    font-size: 15px;
+    
+}
+.tooltips::before {
+    
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(33, 34, 35);
+    top:-6px;
+    right: 15px;
+    transform: rotate(45deg)
+}
+.agree {
+    font-size: 12px;
+    color: gray;
+}
+.privacy {
+    font-size: 11px;
+    color: rgb(46, 114, 209);
+    cursor: pointer;
+}
+.preview-col {
+    margin-top: 30px;
+}
+.features-section .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    cursor: pointer;
+}
+.features-section span {
+    
+    padding-bottom: 30px;
+}
+.features-section span {
+    display: block;
+    text-align: center;
+    
+}
+.tsestimonials-section {
+    padding-block: 40px;
+    background-color: rgb(245, 245, 245);
+}
+.tsestimonials-section .card {
+    display: grid;
+    gap: 10px;
+    font-size: 12px;
+    grid-template-columns: 72px auto;
+}
+.tsestimonials-section .container {
+    display: grid;
+    gap: 15px;
+    
+}
+.tsestimonials-section img {
+    border-radius: 100%;
+}
+
+.tsestimonials-section h6 {
+    margin: 0;
+    font-size: 13px;
+    cursor: pointer;
+    
+    
+}
+.tsestimonials-section span {
+    cursor: pointer;
+    
+    color: gray;
+    font-size: 10px;
+
+}
+.tsestimonials-section a{
+     color: dodgerblue;
+     cursor: pointer;
+     
+}
+.screenshot-section {
+    display: grid;
+    padding-block: 45px;
+}
+
+.screenshot p {
+    font-size: 25px;
+    margin-top: 1px;
+    
+}
+.screenshot-section-2 .container {
+    display: grid;
+}
+.screenshot-section-2 p {
+    display: grid;
+    padding-block: 45px;font-size: 25px;
+    margin-top: 1px;
+}
+.screenshot-2 {
+    display: grid;
+    order: 2;
+}
+.screenshot-section-2 {
+    background-color: rgb(245, 245, 245);
+    
+}
+.screenshot-img {
+    
+    padding-block: 45px;
+    order: 1;
+    
+}
+.screenshot-section-3 {
+    display: grid;
+    padding-block: 45px;
+}
+.screenshot-section-4 {
+    display: grid;
+    padding-block: 45px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.screenshot-section-4 span {
+    cursor: pointer;
+    color: dodgerblue;
+}
+.screenshot-section-4 .container {
+    display: grid;
+}
+.screenshot-section-4 .screenshot {
+    display: grid;
+    order: 2;
+}
+.screenshot-img {
+    
+    padding-block: 45px;
+    order: 1;
+    
+}
+.screenshot-section-5 {
+    display: grid;
+    padding-block: 45px;
+   
+}
+.screenshot-section-5 span {
+    cursor: pointer;
+    color: dodgerblue;
+}
+.section-5 p {
+    font-size: 25px;
+}
+.program-langvage .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    padding-block: 30px;
+    position: relative;
+}
+.program-langvage {
+    
+   
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.box2 .container {
+    
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    gap: 40px;
+    
+}
+.boxx {
+   margin: 0; 
+   padding: 30px;
+   
+}
+
+
+.box2 {
+   display: flex;
+   justify-content: center;
+    font-size: 20px;
+    color: rgb(32, 111, 189);
+    cursor: pointer;
+}
+.started {
+    
+    display:inline-block;
+    align-items: center;
+    color: white;
+    background-color: rgb(10, 88, 167);
+    padding: 17px;
+    width: 200px;
+    height: 60px;
+    
+    margin: auto;
+    margin-bottom: 70px;
+}
+.vs-code {
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    text-decoration: none;
+}
+.program-langvage .container {
+    display: grid;
+    text-align: left;
+    
+}
+.imgg {
+    width: 30px;
+    height: 30px;
+}
+.program-langvage {
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.program .container {
+    display: grid;
+    grid-template-columns: (3,1fr);
+    padding-bottom: 20px;
+}
+.program .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+
+
+.windowimg {
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+ .windows-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(21, 106, 191);
+    width: 240px;
+    height: 65px;
+    margin-top: 20px;
+    
+    
+}
+
+.linux-logi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.linuximg {
+    width: 100px;
+    height: 100px;
+   
+}
+
+.linux-but {
+    display: flex;
+    
+    align-items: center;
+    padding-top: 19px;
+}
+.deb-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(21, 106, 191);
+    color: white;
+    width: 145px;
+    height: 65px;
+    padding: 20px;
+    
+    cursor: pointer;
+}
+.deb-link-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3px;
+    background-color: rgb(21, 106, 191);
+    color: white;
+    width: 145px;
+    height: 65px;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.apple-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+    
+
+.mac {
+    display: flex;
+    background-color: rgb(21, 106, 191);
+    color: white;
+    width: 239px;
+    height: 65px;
+    padding: 20px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+    margin-top: 0px;
+    margin-bottom: 10px
+   
+    
+    
+}
+.installe-1 {
+    display: flex;
+    
+    align-items: center;
+    padding-top: 10px;
+     
+}
+.zip {
+    text-align: center;
+}
+
+.dlink-1, .dlens-2 {
+    
+    background-color: rgb(21, 106, 191);
+    color: white;
+    padding: 0 3px;
+    font: small-caption;
+    border-radius: 2px;
+    font-size: 12px;
+    
+}
+.dlink-3 {
+    background-color: rgb(21, 106, 191);
+    color: white;
+    padding: 0px;
+    font: small-caption;
+    
+}
+
+.col-md {
+    display: grid;
+    padding-top: 60px;
+    
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    
+}
+
+
+.col-md span {
+    cursor: pointer;
+    color: dodgerblue;
+}
+.use {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.terms {
+    line-height: 50px;
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-size: 15px;
+
+}
+.terms span {
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.footerrr .container {
+    display: grid;
+    margin: auto;
+    grid-template-rows: 15 15 20 20 20 20 20 20 20;
+    grid-template-columns: repeat(4, 2fr);
+    
+    gap: 40px;
+    
+   
+}
+.footerrr {
+    
+    margin: auto;
+    background-color: rgb(51, 51, 51);
+    font-size: 13px;
+    padding-top: 20px;
+    color: white;
+    position: relative;
+    
+    justify-content: start;
+  
+}
+.mail {
+    cursor: pointer;
+}
+.cat-star {
+    background-color: rgb(224, 223, 223);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    height: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.star {  
+    color: black;  
+}
+
+.number {
+    position: relative;
+    text-align: right;
+    background-color: aliceblue;
+    border-radius:4px ;
+    color: black;
+    height: 20px;
+    width: 55px;
+    cursor: pointer;
+    
+}
+.number::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(229, 231, 233);
+    top: 5px;
+    left: -3px;
+    bottom:4px;
+    transform: rotate(45deg);
+    
+}
+.support {
+    cursor: pointer;
+}
+.terms-of-use {
+   cursor: pointer;
+   color: white;
+}
+.privacy-2 {
+    cursor: pointer;
+}
+.License {
+    cursor: pointer;
+}
+.wind {
+    cursor: pointer;
+    width: 100%;
+}
+.microsoft {
+    
+    color: white;
+    size: 13px;
+}
