@@ -1,0 +1,422 @@
+@import './color.css';
+
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;;
+}
+
+body {
+    margin: 0;
+    font-style: var(--barlow);
+}
+.container {
+    width: 100%;
+    display: grid;
+    background-color: var(--ECF2F8);
+    justify-content: center;
+    box-sizing: border-box;
+   
+}
+.section .container {
+    width: 330px;
+}
+.testimonials  {
+    padding: 72px 24px 71px 24px;
+    
+
+}
+  
+    
+
+.item1 {
+    display: grid;
+    width: 327px;
+    height: 444px;
+    background-color: var(--733FC8);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin-bottom:24px ;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    font-size: 13px;
+    font-weight: 100;
+    
+}
+.daniel-img {
+    position:absolute;
+    display: inline;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgb(174, 126, 204);
+    border-radius: 28px;
+    margin-top: 25px;
+    margin-left: 32px;
+    
+   
+}
+.name {
+    display: inline;
+    color: var(--fff);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 77px;
+}
+.Verified {
+    display: inline;
+    color: rgb(198, 199, 200); 
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 77px;
+}
+.icon {
+    width:104px;
+    height: 102px;
+    margin-left: 199px;
+}
+.job {
+    position: absolute;
+    width: 256px;
+    color: var(--fff);
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 71px;
+    margin-bottom: 253px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+.emt {
+    color: rgb(198, 199, 200);  
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 130px;
+    margin-bottom: 33px;
+    margin-left: 32px;
+    margin-right: 48px;
+    text-align: left;
+}
+.item2 {
+    display: grid;
+    position: relative;
+    width: 327px;
+    height:240px ;
+    background-color:var( --48556A);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom:24px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+
+}
+.jonathan-img {
+    position:absolute;
+    display: inline;
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    margin-top:26px;
+    margin-left: 32px;
+    
+    
+}
+.name-jinathan {
+    display: inline;
+    color: var(--fff);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 77px;
+}
+.Verified-2 {
+    display: inline;
+    color: rgb(198, 199, 200); 
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 77px;
+}
+.job-2 {
+    position: absolute;
+    width: 263px;
+    color: var(--fff);
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 72px;
+    margin-bottom: 120px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+.skills {
+    width: 263px;
+    color: rgb(198, 199, 200); 
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 136px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 48px;
+    text-align: left;
+}
+.item3 {
+    display: grid;
+    position: relative;
+    width: 327px;
+    height:222px ;
+    background-color: var(--fff);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom:24px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+
+}
+.Jeanette-img {
+    position:absolute;
+    display: inline;
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    margin-top:26px;
+    margin-left: 32px;
+    margin-right: 276px;
+    margin-bottom: 168px;
+}
+.name-Jeanette {
+    display: inline;
+    color: var(--48556A);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 77px;
+    margin-right: 161px;
+    margin-bottom:183px ;
+}
+.Verified-3 {
+    display: inline;
+    color: var(--48556A);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11px;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 77px;
+    margin-right:174px ;
+    margin-bottom:168px ;
+}
+.job-3 {
+    position: absolute;
+    width: 263px;
+    color: var(--48556A);
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 72px;
+    margin-bottom: 102px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+.skills-3 {
+    width: 263px;
+    color: var(--48556A);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 136px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: left;
+}
+.item4 {
+    display: grid;
+    position: relative;
+    width: 327px;
+    height:384px ;
+    background-color: var(--bla);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom:24px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+
+}
+.partick-img {
+    position:absolute;
+    display: inline;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgb(174, 126, 204);
+    border-radius: 28px;
+    margin-top:26px;
+    margin-left: 32px;
+    margin-right: 276px;
+    margin-bottom:330px;
+}
+.nam-patrick {
+    display: inline;
+    color: var(--fff);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 77px;
+    margin-right: 171px;
+    margin-bottom:345px ;
+}
+.verified-4 {
+    display: inline;
+    color: rgb(198, 199, 200); 
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11px;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 77px;
+    margin-right:174px ;
+    margin-bottom:330px ;
+}
+.job-4 {
+    position: absolute;
+    width: 263px;
+    color: var(--ECF2F8);
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 72px;
+    margin-bottom: 192px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+.skill-4 {
+    width: 263px;
+    color: rgb(198, 199, 200); 
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 208px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: left;
+}
+.item5 {
+    display: grid;
+    width: 327px;
+    height:438px ;
+    border: 1px solid black;
+    background-color:var(--fff);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    
+}
+.kira-img {
+    position:absolute;
+    display: inline;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgb(174, 126, 204);
+    border-radius: 28px;
+    margin-top:26px;
+    margin-left: 32px;
+    margin-right: 276px;
+    margin-bottom:330px;
+}
+.lira-img {
+    position:absolute;
+    display: inline;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgb(174, 126, 204);
+    border-radius: 28px;
+    margin-top:26px;
+    margin-left: 32px;
+    margin-right: 276px;
+    margin-bottom:384px;
+}
+.name-kira {
+    display: inline;
+    color: var(--48556A);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 77px;
+    margin-right: 190px;
+    margin-bottom:399px ;
+}
+.verifies-5 {
+    display: inline;
+    color: var(--48556A);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11px;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 77px;
+    margin-right:174px ;
+    margin-bottom:384px ;
+}
+.job-5 {
+    position: absolute;
+    width: 263px;
+    color: var(--48556A);
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 72px;
+    margin-bottom: 318px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+.skill-5 {
+    width: 263px;
+    color: var(--48556A);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 136px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: left;
+}

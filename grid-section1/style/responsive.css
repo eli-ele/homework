@@ -1,0 +1,403 @@
+@media screen and (min-width: 1440px){
+    .container {
+        width: 1440px;
+    }
+    body {
+        margin: 0;
+    }
+    
+    .container {
+        display: grid;
+        width: 1440px;
+        height: 900px;
+        padding: 164px 165px 164px 165px;
+        background-color: var(--ECF2F8);
+        
+        justify-content: center;
+        align-items: center;
+       
+    } 
+    .testimonials {
+        display: grid;
+        padding: 0;
+        
+        grid-template-rows: 100px 100px ;
+        grid-template-columns:100px 100px 100px 100px  ;
+        
+
+    }
+    .item1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+        position: relative;
+    }
+    .daniel-img {
+        margin-top: 26px;
+    }
+    .icon {
+        margin-left: 356px;
+        margin-right: 80px;
+        position: absolute;
+    }
+    .job {
+        position: absolute;
+        width: 476px;
+        margin-left: 32px ;
+        margin-top : 72px;
+        margin-right:32px ;
+        margin-bottom: 138px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .emt {
+        margin-left: 32px;
+        margin-top: 160px;
+        margin-right: 32px;
+        margin-bottom: 32px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    .item2 {
+        grid-row: 1/2 ;
+        grid-column:3/ 4 ;
+    }
+    .jonathan-img {
+        position:absolute;
+        display: inline;
+        width: 28px;
+        height: 28px;
+        border-radius: 28px;
+        margin-top:26px;
+        margin-left: 32px;
+        
+        
+    }
+    .name-jinathan {
+        display: inline;
+        color: var(--fff);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        position: absolute;
+        margin-left: 77px;
+        margin-top: 26px;
+        margin-right: 88px;
+        margin-bottom: 243px;
+    }
+    .Verified-2 {
+       display: inline;
+       color: var(--CFCFCF);
+       font-size: 11px;
+       font-style: normal;
+       font-weight: 500;
+       position: absolute;
+       margin-top: 42px;
+       margin-left: 77px;
+    }
+    .job-2 {
+        position: absolute;
+        width: 191px;
+        color: var(--fff);
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 72px;
+        margin-bottom: 138px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+    }
+    .skills {
+        width: 191px;
+        color: var(--CFCFCF); ;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        margin-top: 160px;
+        margin-bottom: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
+        text-align: left;
+    }
+    .item5 {
+        grid-row:1/3 ;
+        grid-column:4/5 ;
+    } 
+    .item3 {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .Jeanette-img {
+        position:absolute;
+        display: inline;
+        width: 28px;
+        height: 28px;
+        border-radius: 28px;
+        margin-top:26px;
+        margin-left: 32px;
+        margin-right: 195px;
+        margin-bottom: 212px;
+    }
+    .name-Jeanette {
+        display: inline;
+        color: var(--48556A);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px;
+        position: absolute;
+        margin-top: 26px;
+        margin-left: 77px;
+        margin-right: 89px;
+        margin-bottom:227px ;
+    }
+    .Verified-3 {
+        display: inline;
+        color: var(--48556A);
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11px;
+        position: absolute;
+        margin-top: 43px;
+        margin-left: 77px;
+        margin-right:32px ;
+        margin-bottom:212px ;
+    }
+    .job-3 {
+        position: absolute;
+        width: 191px;
+        color: var(--48556A);
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 72px;
+        margin-bottom: 122px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: left;
+    }
+    .skills-3 {
+        width: 191px;
+        color: var(--48556A);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        margin-top: 168px;
+        margin-bottom: 26px;
+        margin-left: 32px;
+        margin-right: 32px;
+        text-align: left;
+    }
+    .item4 {
+        grid-row:2/4 ;
+        grid-column:2/4 ;
+    }
+    
+    .item1 {
+     width: 540px;
+     height: 282px;
+     border: 1px solid black;
+     border-radius: 8px;
+     text-align: center;
+     padding: 0;
+     margin-right: 30px;
+     margin-bottom: 24px;
+     
+     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+
+     }
+    .item2 {
+      width: 255px;
+      height:282px ;
+      border: 1px solid black;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+      padding: 0;
+      margin-right: 30px;
+    }
+    .item3 {
+      width: 255px;
+      height:266px ;
+      border: 1px solid black;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+      padding: 0;
+      margin-right: 30px;
+     
+    }
+     .item4 {
+      width: 540px;
+      height:266px ;
+      border: 1px solid black;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+      padding: 0;
+    }
+    .partick-img {
+        position:absolute;
+        display: inline;
+        width: 28px;
+        height: 28px;
+        border: 1px solid rgb(174, 126, 204);
+        border-radius: 28px;
+        margin-top:26px;
+        margin-left: 32px;
+        margin-right: 480px;
+        margin-bottom:212px;
+    }
+    .nam-patrick {
+        display: inline;
+        color: var(--fff);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px;
+        position: absolute;
+        margin-top: 26px;
+        margin-left: 77px;
+        margin-right: 380px;
+        margin-bottom:277px ;
+    }
+    .verified-4 {
+        display: inline;
+        color: var(--fff);
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11px;
+        position: absolute;
+        margin-top: 43px;
+        margin-left: 77px;
+        margin-right:380px ;
+        margin-bottom:212px ;
+    }
+    .job-4 {
+        position: absolute;
+        width: 476px;
+        color: var(--ECF2F8);
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 72px;
+        margin-bottom: 112px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: left;
+    }
+    .skill-4 {
+        width: 476px;
+        color: rgb(179, 180, 181);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        margin-top: 168px;
+        margin-bottom: 26px;
+        margin-left: 32px;
+        margin-right: 32px;
+        text-align: left;
+    }
+    .item5 {
+     width:255px;
+     height:572px ;
+     border: 1px solid black;
+     border-radius: 8px;
+     text-align: center;
+     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+     padding: 0;
+     margin-bottom: 22px;
+    }
+    .kira-img {
+        position:absolute;
+        display: inline;
+        width: 28px;
+        height: 28px;
+        border: 1px solid rgb(174, 126, 204);
+        border-radius: 28px;
+        margin-top:26px;
+        margin-left: 32px;
+        margin-right: 276px;
+        margin-bottom:384px;
+    }
+    .kira-img {
+        position:absolute;
+        display: inline;
+        width: 28px;
+        height: 28px;
+        border: 1px solid rgb(174, 126, 204);
+        border-radius: 28px;
+        margin-top:26px;
+        margin-left: 32px;
+        margin-right: 195px;
+        margin-bottom:518px;
+    }
+    .name-kira {
+        display: inline;
+        color: var(--48556A);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px;
+        position: absolute;
+        margin-top: 26px;
+        margin-left: 77px;
+        margin-right: 118px;
+        margin-bottom:533px ;
+    }
+    .verifies-5 {
+        display: inline;
+        color: var(--48556A);
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11px;
+        position: absolute;
+        margin-top: 43px;
+        margin-left: 77px;
+        margin-right:108px ;
+        margin-bottom:518px ;
+    }
+    .job-5 {
+        position: absolute;
+        width: 191px;
+        color: var(--48556A);
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 72px;
+        margin-bottom: 428px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: left;
+    }
+    .skill-5 {
+        width: 191px;
+        color: rgb(179, 180, 181);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        margin-top: 168px;
+        margin-bottom: 26px;
+        margin-left: 32px;
+        margin-right: 32px;
+        text-align: left;
+    }
+      
+    
+
+}
