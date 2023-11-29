@@ -1,0 +1,71 @@
+@media screen and (min-width:1200px) {
+    .container {
+        grid-template-columns: auto auto auto ;
+    }
+    .container {
+        display: grid;
+        gap: 30px;
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
+    }
+    .header h2 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 275;
+        line-height: normal;
+        letter-spacing: 0.25px;
+        padding-top: 80px;
+    }
+    .header h5 {
+        font-size: 36px;
+        font-style: normal;      
+    }
+    .header p {
+        width: 540px; 
+        
+    }
+    .card1 {
+       display: grid;
+       gap:30px;
+       width: 350px;
+       height: 250px; 
+       margin-top: 0;
+       
+    }
+    .card-card {
+        display: grid;
+        row-gap: 20px;
+        gap:30px
+    }
+    .card1 p {
+        width: 286px;
+       
+    }
+    .hed {
+        width:350px;
+        
+    }
+    .card1 h5 {
+     margin: 2px 174px 0px 28px;
+    }
+    .icon {
+        width: 64px;
+        height: 64px; 
+        margin-bottom: 35px; 
+        
+    }
+    .card1 p {
+        margin-bottom: 5px;
+    }
+     
+    
+
+
+
+
+
+
+}
+
+
