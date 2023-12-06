@@ -1,0 +1,341 @@
+@media screen  and (min-width:768px) {
+    .container {
+       width:768px;
+       box-sizing: border-box;
+       background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    }
+    .container{
+        padding: 31px 40px 86px 40px;
+        margin: auto;
+        width: 768px;
+    }
+    .header {
+        display: flex;
+        gap:460px
+    }
+    .section-2 .container {
+        grid-template-columns: auto auto;
+        height: 550px;
+        overflow: hidden;
+    }
+    .box-1 h4 {
+        width: 326px;
+        height: 101px;
+    }
+    .box-1 p{
+        width: 398px;
+        height: 78px;
+    }
+    .butt:hover {
+        background: var(--666CA3, #666CA3);
+    }
+    .butt-2:hover {
+        background: var(--Gradient-1-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    }
+    .img {
+        display: none;
+    }
+    .box-2 {
+       position: relative;   
+    }
+    .box-2::before {
+        content: '';
+        position: absolute;
+        width:200px ;
+        height: 600px;
+        background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+        transform: rotate(45deg);
+        border-radius: 158.5px;
+        left: 45px;
+        top: -150px;  
+    }
+    .img-2 {
+        position: absolute;
+        display: grid;
+        width: 216px;
+        height: 329px;
+        border-radius:158.5px;
+        top: 55px;
+    }
+    .backgr {
+        position: absolute;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 158.5px;
+        width: 216px;
+        height: 382px;
+        top: 11px;
+        right: 30px; 
+    }
+    .hours {
+        margin: 0;
+    }
+    .member {
+        position: absolute;
+        left: 60px;
+        top: 15px;
+    }
+    .course {
+        top:330px;
+        right: 140px;       
+    }
+    .section-3 .container {
+        display: grid;
+        grid-template-columns:repeat(2,4fr);
+        row-gap: 56px;
+        column-gap: 11px;
+    }
+    .card-1 h5 {
+        width:286px ;
+        height: 64px;
+    }
+    .card-1 {
+        display: grid;
+        width: 339px;
+        height: 359px;
+        align-items: center;
+        justify-content: center;
+        padding: 56px 21px 139px 32px;
+    } 
+    .card-2 {
+        width: 339px;
+        height: 359px;
+        padding: 56px 22px 32px 32px;
+    }
+    .icon {
+        top:0px ;
+        left:420px ;
+    }  
+    .card-3 {
+        width: 339px;
+        height: 359px;
+        padding: 56px 22px 32px 32px;
+    }
+    .icon-2 {
+        top: 410px;
+        left: 69px;
+    }
+    .card-4 {
+        width: 339px;
+        height: 359px;
+        padding: 56px 22px 32px 32px;
+    }
+    .icon-3 {
+        left: 420px;
+        top: 410px;
+    }
+    .card-5 {
+        width: 339px;
+        height: 359px;
+        padding: 56px 22px 32px 32px;
+    }
+    .icon-4 {
+        top: 820px;
+        left: 69px;
+    }
+    .card-6 {
+        width: 339px;
+        height: 359px;
+        padding: 56px 22px 32px 32px;
+    }
+    .icon-5 {
+        top: 820px;
+        left: 420px;
+    }
+    .footer-1 .container {
+        width: 768px;
+        padding: 0;
+    }
+    .footer {
+        width: 768px;
+        height: 120px;
+        gap: 400px;
+        
+    }
+      
+    
+} 
+
+@media screen  and (min-width:1200px) {
+    .container {
+       width: 1200px;
+       background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    }
+    .container{
+        padding: 29px 100px 100px 100px;
+        margin: auto;   
+    }
+   
+    .header {
+        display: flex;
+        gap: 700px;  
+    }
+    .box-1 {
+        display: grid;
+        padding-top: 100px;
+    }
+    .box-1 h4 {
+        width: 557px;
+        height: 143px;
+        font-size: 56px;  
+    }
+    .box-1 p{
+        width: 445px;
+        height: 84px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .section-2 .container{
+       height:700px;
+       overflow: hidden;
+       position: relative;
+    }
+    .box-2 {
+        display: grid;
+        position: absolute;   
+    }
+    .box-2::before {
+        content: '';
+        position: absolute;
+        width:317px ;
+        height: 900px;
+        background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+        transform: rotate(42deg);
+        border-radius: 158.5px;
+        left: 900px;
+        top: -220px;   
+    }
+    .img-2 {  
+        position: absolute;
+        display: grid;
+        width: 317px;
+        height: 510px;
+        border-radius:158.5px;
+        top: 54px;
+          
+    }
+    .backgr {
+        position: absolute;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 158.5px;
+        width: 317px;
+        height: 560px;
+        top: 50px;
+        left: 700px;
+    }
+    .member {
+        position: absolute;
+        width: 155px;
+        height: 120px;
+        left: 950px;
+        top: 130px;
+    }
+    .course {
+        position: absolute;
+        width:159px;
+        height: 100px;
+        top:430px;
+        left:650px;   
+    }
+    .hours {
+        width: 103px;
+        height: 28px;
+    }
+    .number-2 {
+        width: 72px;
+        height: 50px;
+        font-size: 40px;
+        font-weight: 800;
+        margin: 10px 0px 0px 20px;
+    }
+    .mem-tex {
+        font-size: 16px;
+        font-weight: 700px;
+        line-height: 28px;
+        margin: 25px 0px 0px 25px;
+    }
+    .hours {
+       font-size: 16px;
+    }
+    .number{
+        font-size: 40px;
+    }
+    .section-3 .container {
+        display: grid;
+        grid-template-columns:repeat(3,2fr);
+        row-gap: 80px;
+        column-gap: 30px;
+        justify-content: center;
+        position: relative;   
+    }
+    .card-1 h5 {
+        width:286px ;
+        height:120px;
+        text-align: left;
+    }
+    .card-1 {
+        display: grid;
+        width: 350px;
+        height: 322px;
+        align-items: center;
+        justify-content: center;
+        padding: 64px 32px 40px 32px;
+    } 
+    .card-2 {
+        width: 350px;
+        height: 322px;
+        padding: 64px 32px 40px 32px;
+    }
+    .icon {
+        top:0px ;
+        left:540px ;
+        position: absolute;
+    }  
+    .card-3 {
+        width: 350px;
+        height: 322px;
+        padding: 64px 32px 40px 32px;
+    }
+    .icon-2 {
+        top: 3px;
+        left: 899px;
+    }
+    .card-4 {
+        width: 350px;
+        height: 322px;
+        padding: 64px 32px 40px 32px;
+    }
+    .icon-3 {
+        left: 180px;
+        top: 400px;
+    }
+    .card-5 {
+        width: 350px;
+        height: 322px;
+        padding: 64px 32px 40px 32px;
+    }
+    .icon-4 {
+        top: 400px;
+        left: 540px;
+    }
+    .card-6 {
+        width: 350px;
+        height: 322px;
+        padding: 64px 32px 40px 32px;
+    }
+    .icon-5 {
+        top: 400px;
+        left: 899px;
+    }
+    .footer-1 .container {
+        width:1200px;
+        padding: 0;
+    }
+    .footer {
+        width: 1200px;
+        height: 120px;
+        gap: 850px;   
+    }
+   
+
+    
+} 
