@@ -1,0 +1,148 @@
+* { 
+    font-family:  'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body {
+   margin: 0; 
+}
+.container {
+    width: 375px;
+    height:869px;
+    margin: auto;
+    background-image: url(../assets/img/bg-weather\ mob.png);  
+}
+header {
+    display: flex;
+    justify-content: space-between; 
+    padding:19px 23px 41px 22px;
+}
+.searchdiv {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;    
+}
+.search {
+    display: flex;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+.buttonsearch {
+    display: flex;
+    border: none; 
+    background: none;
+    cursor: pointer;
+}
+.searchicon {
+    width: 11px;
+    height: 11px;
+    align-items: center;
+}
+.weather {
+    display:flex;
+    color: white;
+    margin-top:40px;
+    padding-left:22px;
+}
+.temp {
+    font-size: 64px;
+    font-weight: 400;  
+}
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 10px;
+    margin-left: 0;
+}
+.weather-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WeatherDetails {
+    display: flex;
+    width: 375px;
+    border-left: 5px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(9.5px);
+}
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 55px 127px;
+}
+h2 {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+   margin-left: 45px;
+}
+.Tempmax {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 44px 0px 44px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tempp {
+    display: flex;
+    text-align:end;
+    padding-left: 150px;
+}
+.Tempmin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 44px 0px 44px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.Humadity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 44px 0px 44px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.Cloudy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 44px 0px 44px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.Wind {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 44px 0px 44px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400; 
+}
+.line {
+    border:1px solid white;
+    width: 285px;
+    height: 0px;
+    margin-left: 45px;
+    margin-top: 85px;
+    margin-bottom: 40px;
+}
+.Todayweatther {
+    display: none;
+}

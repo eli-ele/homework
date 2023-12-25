@@ -1,0 +1,190 @@
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+        height: 1070px;
+        background-image:none;
+        background-image: url(../assets/img/bg-weather\ \ tablet.png);
+    }
+    header {
+        padding: 25px 39px 41px 39px;
+    }
+    .search  {
+        font-size: 18px;
+    }
+    .searchicon {
+        width: 22px;
+        height: 21px;
+    }
+    .weather {
+        margin-top: 170px;
+        padding: 25px 39px 20px 39px;
+    }
+    .temp {
+        font-size: 120px;
+        margin: 0;
+    }
+    .city {
+        font-size: 48px;
+    }
+    .weather-icon {
+        width: 55px;
+    }
+    .WeatherDetails {
+        width: 767px;
+    }
+    h3 {
+        font-size: 18px;
+        padding: 80px 300px;
+    }
+    h2 {
+        font-size: 18px;
+        font-size: 18px;
+        margin-left: 200px;
+    }
+    .Tempmax {
+        padding: 0px 200px 0px 185px;
+    }
+    .tempp {
+        padding-left: 220px;
+    }
+    .Tempmin {
+        padding: 0px 200px 0px 185px;
+    }
+    .Humadity {
+        padding: 0px 200px 0px 185px;
+    }
+    .Cloudy {
+        padding: 0px 200px 0px 185px; 
+    }
+    .Wind {
+        padding: 0px 200px 0px 185px;
+    }
+    .line {
+        width: 371px;
+        height: 0px;
+        margin-left: 180px;
+       margin-top: 85px;
+       margin-bottom: 50px;
+    }
+    .Todayweatther {
+        display: none;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:1440px) {
+    .container {
+        width: 1440px;
+        height: 806px;
+        background-image:none;
+        background-image: url(../assets/img/bg-weather\ Desktop.png);
+    }
+    .searchicon {
+        width: 28px;
+        height: 28px;
+    }
+    header {
+        padding:37px 137px 41px 117px;
+        position: relative;
+    }
+    .searchdiv { 
+        z-index: 1;
+        margin-right: 70px;
+    }
+    .search {
+        font-size: 20px;   
+    }
+    .weather {
+        margin-top: 390px;
+        padding: 37px 137px 41px 117px;
+      }
+    .temp {
+        font-size: 143px;
+    }
+    .city {
+        font-size: 60px;
+    }
+    .weather-icon {
+        width: 70px;
+    }
+    .WeatherDetails {
+        position: absolute;
+        width: 526px;
+        height: 800px;
+        top: 0px;
+        left:912px;
+        margin-right: 0px;
+    }
+    h3 {
+        font-size: 18px;
+        text-align: left;
+        padding: 130px 35px 35px; 
+    }
+    h2 {
+        align-items: flex-start;
+        margin-left: 35px;
+    }
+    .hed {
+      width: 400px;
+    }
+    .Tempmax {
+        margin-left: 35px;
+        padding: 0;
+    }
+    .Tempmin {
+        margin-left: 35px;
+        padding: 0;
+    }
+    .Humadity {
+        margin-left: 35px;
+        padding: 0;
+    }
+    .Cloudy {
+        margin-left: 35px;
+        padding: 0;
+    }
+    .Wind {
+        margin-left: 35px;
+        padding: 0;
+    }
+    .line {
+        width: 371px;
+        margin-left: 35px;
+    }
+    .Todayweatther {
+        display: inline;
+        color: white;
+    }
+    .Todayweatther p {
+        margin-left: 35px;
+    }
+    .snowtoday {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:30px 0px 10px 35px;
+    }
+    .snowtoday p {
+        margin-left: 35px; 
+    }
+    .time {
+        font-size: 18px;
+    }
+    .temp2 {
+        font-size: 24px;
+    }
+    .snowtoday2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 35px;
+        overflow: hidden;
+    }
+
+
+
+
+}
