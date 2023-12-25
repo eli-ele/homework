@@ -1,0 +1,88 @@
+@import './color.css';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+}
+.container {
+    
+    width: 1400px;
+    height: 1080px;
+    padding: 66px 100px 100px 62px;
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+    flex-direction: column;
+    align-items:start;
+    text-align: left;
+}  
+tr,td { 
+    color: rgb(152, 149, 149);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 22px; 
+    height: 49px;
+    border-bottom: 1px solid gray;
+}
+th {
+    color: var(--343A40);
+    border-bottom-width:medium;
+    height: 50px;
+    align-self: stretch;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.hed-input1 {
+    width: 24px;
+    height: 24px;
+    margin-left:20px;
+}
+#hedinput {
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+    margin-left:20px;
+}
+#butt {
+    display:flex;
+    height: 25px;
+    width: 65px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#a {
+    display:inline-flex;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+#title {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+#butt1 {
+    display:flex;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#butt2 {
+    display:flex;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
