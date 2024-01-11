@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather Web</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="weather">
+    <div class="container">
+      <div class="header">
+        <p class="name">Name</p>
+        <ul>
+          <li><a class="home"  href="./index.html"><img src="./assets/icon/element-3.svg"></a></li>
+          <li><a class="weater_menu" href="./days/days.html"><img src="./assets/icon/sun25.svg"></a></li>
+          <li><a class="horiscop_menu" href="./zodiaco/zodiaco.html"><img src="./assets/icon/sagittarius.svg"> </a></li>
+          <li><a class="notification_menu" href=""><img src="./assets/icon/mobile5.png"></a> </li>
+          <li><a class="currency_converter" href=""><img src="./assets/icon/Group 303.png"></a> </li>
+        </ul>
+        <div class="btn">
+          <div class="but_indicator">
+            <div class="btu_icon-container">
+              <img class="icon_moon" src="./assets/icon/fa-solid-famoon.ico" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu1">
+          <img class="search" src="./assets/icon/search.svg">
+          <img class="flag" src="./assets/icon/flag usa.png">
+          <img class="icon" src="./assets/icon/bars-solid(3).svg">
+        </div>
+        <div class="seting">
+          <img src="./assets/icon/setting-2.png">
+        </div>
+      </div>
+    </div>
+    <section class="section_1">
+      <div class="container">
+        <div class="item1">
+          <div class="head">
+            <div class="today1">
+              <h1 id="today"></h1>
+              <div class="search2">
+                <input class="inp" type="">
+                <button class="buttunserch">
+                  <img width="25px" src="./assets/icon/search.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="sun_icon">
+            <img class="sun1" src="./assets/icon/Sunny.svg">
+            <h1 class="city">tbilisi</h1>
+          </div>
+          <div class="temp_skies">
+            <h1 class="temp">+18°</h1>
+            <p class="skies">Sunny, clear skies, swirling winds</p>
+          </div>
+          <div class="clocks_weather">
+            <div>
+              <p>Now</p>
+              <img  src="./assets/icon/Sunny.svg">
+              <p>18°</p>
+            </div>
+            <div>
+              <p>12</p>
+              <img src="./assets/icon/Sunny.svg">
+              <p>19°</p>
+            </div>
+            <div>
+              <p>13</p>
+              <img src="./assets/icon/Sunny.svg">
+              <p>21°</p>
+            </div>
+            <div>
+              <p>14</p>
+              <img src="./assets/icon/Sunny.svg">
+              <p>22°</p>
+            </div>
+            <div>
+              <p>15</p>
+              <img src="./assets/icon/Sunny.svg">
+              <p>24°</p>
+            </div>
+            <div>
+              <p>16</p>
+              <img src="./assets/icon/Sunny.svg">
+              <p>26°</p>
+            </div>
+            <div>
+              <p>16</p>
+              <img src="./assets/icon/Sunny.svg">
+              <p>26°</p>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="location">
+            <img src="./assets/icon/location-pin2.png">
+            <p class="tbilisi">Tbilisi, Georgia</p>
+          </div>
+          <div class="calendar">
+            <img src="./assets/icon/calendar-empty-alt.png">
+            <p class="">Monday, September 11 </p>
+            <p class="time"> 6:30 AM</p>
+          </div>
+        </div>
+        <div class="item2">
+          <div class="days7">
+            <p>7 days Forecast</p>
+            <div class="day">7 day <img class="dowu" type="click" src="./assets/icon/angle-down-small.svg"></div>
+          </div>
+          <div class="weather7day">
+            <div class="box1">
+              <img src="./assets/icon/Sunny.svg">
+              <h4>18°</h4>
+              <p class="box">/+17</p>
+              <p>11 September</p>
+              <p>Today</p>
+            </div>
+            <div class="box1">
+              <img width="25px" height="25px" src="./assets/icon/Group 164.png">
+              <h4>24°</h4>
+              <p class="box">/+17</p>
+              <p>12 September</p>
+              <a>Tue</p>
+            </div>
+            <div class="box1">
+              <img width="25px" height="25px" src="./assets/icon/Group 159.png">
+              <h4>20°</h4>
+              <p class="box">/+14</p>
+              <p>13 September</p>
+              <p>Wed</p>
+            </div>
+            <div class="box1">
+              <img width="25px" height="25px" src="./assets/icon/Group 165.png">
+              <h4>26°</h4>
+              <p class="box">/+16</p>
+              <p>14 September</p>
+              <p>Thu</p>
+            </div>
+            <div class="box1">
+              <img width="25px" height="25px" src="./assets/icon/outline.png">
+              <h4>19°</h4>
+              <p class="box">/+15</p>
+              <p>15 September</p>
+              <p>Fri</p>
+            </div>
+            <div class="box1">
+              <img width="25px" height="25px" src="./assets/icon/Sunny.svg">
+              <h4>34°</h4>
+              <p class="box">/+17</p>
+              <p>16 September</p>
+              <p>Sat</p>
+            </div>
+            <div class="box1">
+              <img width="25px" height="25px" src="./assets/icon/Group 268.png">
+              <h4>24°</h4>
+              <p class="box">/+17</p>
+              <p>17 September</p>
+              <p>Sun</p>
+            </div>
+          </div>
+          <div class="Tomorrow">
+            <img width="30px" height="30px" src="./assets/icon/Group 164.png">
+            <p class="tomor">Tomorrow <br>15° <br> Fog Storm Day</p>
+            <img  height="20px" src="./assets/icon/Vector 58.svg">
+          </div>
+        </div>
+        <div class="item3">
+          <div class="bigbox1">
+            <div class="box5">
+              <p class="moontext">Moon phase</p>
+              <img class="monnline" src="./assets/icon/Ellipse 791.svg">
+              <img class="moonicon" src="./assets/icon/Full Moon.png">
+              <p class="moonfool">Full moon</p>
+            </div>
+            <div class="box6">
+              <p class="uvindextext">UV Index</p>
+              <img class="uvindex" src="./assets/icon/Group 280.png">
+              <div class="uv">
+                <p class="numb">4.3</p>
+                <p>UV</p>
+              </div>
+            </div>
+          </div>
+          <div class="bigbox2">
+            <div class="box7">
+              <p class="Sunrise1">Sunrise & Sunset</p>
+              <img class="veqt" src="./assets/icon/Group 1588.png">
+              <div class="vecror2">
+                <img src="./assets/icon/Vector.svg">
+                <img src="./assets/icon/Vector2.svg">
+              </div>
+              <div class="Sunrise_Sunset">
+                <p class="Sunrise">5:30 AM</p>
+                <p class="Sunset">6:40 AM</p>
+              </div>
+            </div>
+            <div class="box8">
+              <p class="humidity">Humidity</p>
+              <div class="percent">
+                <p class="percentnumber">30</p>
+                <p>%</p>
+                <img class="percicon" width="19px" height="19px" src="./assets/icon/Humidity.png">
+              </div>
+              <div class="dew_point">
+                <p>The dew point is 17°</p>
+                <p>right now</p>
+              </div>
+            </div>
+          </div>
+          <div class="bigbox3">
+            <div class="box9">
+              <p class="visibility">Visibility</p>
+              <div class="km">
+                <p class="kmnumber">02</p>
+                <p>km</p>
+                <img class="eyeicon" src="./assets/icon/eye.svg">
+              </div>
+              <p class="haze">Haze is affecting visibility</p>
+            </div>
+            <div class="box10">
+              <p class="feels">Feels like</p>
+              <div class="km">
+                <p class="grad">24°</p>
+                <img class="eyeicon" src="./assets/icon/thermometer.svg">
+              </div>
+              <p class="humidity2">Humidity is making it feel hotter</p>
+            </div>
+          </div>
+        </div>
+      <div class="item4">
+         <div><img  width="225px" height="310px" src="./assets/img/Rectangle 43.png"></div>
+         <div><img  width="225px" height="310px" src="./assets/img/Rectangle 44.png"></div>
+         <div><img  width="225px" height="310px" src="./assets/img/Rectangle 45.png"></div>
+         <div><img  width="225px" height="310px" src="./assets/img/Rectangle 46.png"></div>
+      </div>
+     </div>
+   </div>
+  </section>
+</div>
+
+</body>
+
+</html>

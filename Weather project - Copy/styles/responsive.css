@@ -1,0 +1,424 @@
+
+@media screen and (min-width:1670px) {
+    .container {
+      width: 1670px;
+      height: 1080px;
+      box-sizing: border-box;
+    }
+    body {
+        border-radius: 281px;
+        background: radial-gradient(20% 20% at 20% 20%, rgba(233, 78, 119, 0.70) 0%, rgba(233, 78, 119, 0.00) 100%);
+        padding: 20px;   
+    }
+    body.darkmode {
+        background-color:var(--black2);
+        color: white;  
+    }
+    .header {
+        display:grid;
+        width:131px ;
+        height: 1030px;
+        background-color:rgb(248, 241, 241);
+        /*padding: 103px 36px 45px 36px;*/
+        border-radius:30px;
+        margin-left: 21px;
+        margin-top: 15px;
+        backdrop-filter: blur(9.5px);
+        background: rgba(55, 55, 55, 0.04);
+    }
+    .darkmode .header {
+        background-color: var( --blue);
+    }
+    .name {
+        display:inline;
+    }
+    .name {
+        display: flex;
+        padding-top: 100px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .darkmode .name {
+        border-bottom: 99px white;
+        padding-top: 100px;
+    }
+    ul  {
+        display: inline;
+        margin-top: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+    ul li {  
+        text-decoration: none;
+        list-style: none;
+        padding-top: 20px;
+    }
+        
+   
+    .header a:hover {
+        background: linear-gradient(92deg, #a5a4a4 -277.19%, rgba(255, 255, 255, 0.00) 98.79%);
+        border-left: 6px solid rgb(21, 14, 14);
+    }
+        
+    .darkmode .header a:hover {
+        background: linear-gradient(92deg, #FFF -277.19%, rgba(255, 255, 255, 0.00) 98.79%);
+        border-left: 6px solid white;
+    }
+    .home {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 72px;
+    }
+    .weater_menu {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 72px;
+    }
+    .horiscop_menu {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 72px;
+    }
+    .notification_menu {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 72px;
+    }
+    .currency_converter {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 72px;
+    }
+    .search {
+        display: none;
+    }
+    .menu1 {
+        display: grid;
+        justify-content: center;
+    }
+    .flag {
+        order: 1;
+        text-align: center;
+        margin-top:150px;
+        cursor: pointer;
+    }
+    .btn {
+        width: 84px;
+        height: 41px;
+        order: 2;
+        align-items: center;   
+    }
+    .menu {
+        display: none;
+    }
+    .icon {
+        display: none;
+    }
+    .seting {
+        order:3;
+        display: inline;
+        text-align: center;
+        cursor: pointer;
+    }
+    .section_1 .container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section_1 {
+        margin-top: -1560px;
+    }
+    .item1 {
+        display: grid;
+        width:400px;
+        height: 540px;
+        background-color: rgb(245, 235, 235);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 130px;
+        border-radius: 34px;
+        padding: 20px ;
+        margin-left: 190px;
+    }
+    .darkmode .item1 {
+        background-color: var( --blue);
+    }
+    .city {
+        display: none;
+    }
+    .today1 {
+        display:flex;
+        text-align:start;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .sun1 {
+        width: 180px;
+        height: 180px; 
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+    .temp_skies {
+        position: absolute;
+        left: 420px;
+        top: 190px;
+    }
+    .buttunserch {
+        display: flex;
+        border: none;
+       
+        border-radius:40px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .inp {
+        border: none;
+        background: none;
+        font-size: 8px;
+    }
+    .search2 {
+        display: flex;
+        align-items: center;
+        align-items: center;
+    }
+    .sun_icon {
+        width: 102px;
+    }
+    .temp {
+        font-size: 55px;
+    }
+    .skies {
+        font-size: 15px;
+        text-align: left;
+    }
+    .clocks_weather {
+        display: none;
+    }
+    .line {
+        width:320px;
+        height: 1px;
+        border: 1px solid gray;
+        margin-top: 60px;
+    }
+   .location {
+        display: flex;
+   }
+   .calendar {
+       display: flex;
+   
+   }
+   .tbilisi .Monday {
+       font-size: 16px;
+   }
+   .time {
+    font-weight: 600;
+     margin-left: 5px;
+   }
+   .item2 {
+    width: 400px;
+    height: 390px;
+    order: 3;
+    margin-left: 190px;
+    margin-top: -400px;
+    position: relative;
+   }
+   .darkmode .item2 {
+    background-color: var( --blue);
+    }
+    .Tomorrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+        height: 100px;
+        background-color: rgb(236, 229, 236);
+        border-radius: 18px;
+        position: absolute;
+        bottom:25px;
+        padding: 10px;
+    } 
+    .tomor {
+       text-align: left;
+    }
+    .darkmode  .Tomorrow {
+        background-color: rgb(20, 20, 20);
+    }
+   .item3 {
+    display:flex;
+    width: 1000px;
+    height: 540px;
+    justify-content: center;
+    background-color: rgb(245, 235, 235);
+    margin-top: 480px;
+    position: relative;
+   }
+   .darkmode .item3 {
+    background-color: var( --blue);
+    }
+    .moonicon {
+        left: 130px;
+        margin-top: 35px;
+        width: 120px;
+        height: 110px;
+    } 
+   .box5 {
+    width:300px ;
+    height:280px ;
+    order: 1;
+    margin-top: -160px;
+   }
+   .monnline {
+    margin-top: 15px;
+    width: 140px;
+   }
+   .moonfool {
+    margin-top: 10px;
+   }
+   .box6 {
+    width:300px ;
+    height:280px ;
+    margin-left: 10px;
+    order: 2;
+    margin-top: -160px;
+   }
+   .uvindex {
+    margin-top: 20px;
+    width: 180px;
+   }
+   .uv {
+    margin-top: 30px;
+   }
+   .box7 {
+    width:300px ;
+    height:280px ;
+    margin-left: 10px;
+    order: 3;
+    margin-top: -160px;
+   }
+   .veqt {
+    height: 90px;
+    margin-top: 20px;
+   }
+   .Sunrise_Sunset {
+    margin-top: 10px;
+   }
+    .box8 {
+        width:300px ;
+        height: 150px;
+        order: 4;
+        position: absolute;
+        left: 34px;
+        top: 340px;
+        padding: 10px;
+    }
+    .humidity {
+        padding: 10px 10px 0 10px;
+    }
+    .percent {
+        text-align:center;
+        padding-left: 10px;    
+    }
+    .percentnumber {
+        font-size: 30px;  
+    }
+    .percicon {
+      margin-left: 110px;
+      text-align:center ;
+    }
+    .dew_point {
+        display:grid;
+       align-items: end;
+       text-align: right;
+       padding: 0 10px 10px 30px;
+    }
+    .box9 {
+        width:300px ;
+        height: 150px;
+        order: 5;
+        position: absolute;
+        left: 350px;
+        top: 340px;
+        padding: 10px;
+    }
+    .visibility {
+        padding: 10px 10px 0 10px;
+    }
+    .kmnumber {
+        font-size: 30px;
+    }
+    .eyeucon {
+        margin-left: 0px;
+    }
+    .eyeicon {
+        margin-left: 110px;
+    }
+    .haze {
+       display:grid;
+       align-items:end;
+       text-align:right;
+       margin-left: 170px;
+    }
+    .box10 {
+        order: 6;
+        width:300px ;
+        height: 150px;
+        position: absolute;
+        left: 652px;
+        top: 340px;
+        padding: 10px;
+    }
+    .grad {
+        font-size: 30px; 
+    }
+    .humidity2 {
+        display:grid;
+       align-items:end;
+       text-align:right;
+       margin-left: 120px;
+       padding: 0 10px ;
+    }
+    .feels {
+        padding: 10px 10px 0 10px; 
+    }
+    .item4 {
+    display: inline;
+    }
+    .item4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height:390px;
+    background-color: rgb(245, 235, 235);
+    border-radius: 18px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 11px;
+   }
+   .darkmode .item4 {
+    background-color: var( --blue);
+   }
+   .item4 div {
+     margin:5px;
+   }
+
+}

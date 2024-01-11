@@ -1,0 +1,87 @@
+
+
+* { 
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 428px;
+    height:2825px;
+}
+body {
+   position: relative;
+}
+.header a:hover {
+    background: linear-gradient(92deg, #a5a4a4 -277.19%, rgba(255, 255, 255, 0.00) 98.79%);
+    border-left: 6px solid rgb(21, 14, 14);
+}
+    
+.darkmode .header a:hover {
+    background: linear-gradient(92deg, #FFF -277.19%, rgba(255, 255, 255, 0.00) 98.79%);
+    border-left: 6px solid white;
+}
+.home {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height: 72px;
+}
+.weater_menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height: 72px;
+}
+.horiscop_menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 72px;
+}
+.notification_menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 72px;
+}
+.currency_converter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 72px;
+}
+
+.section1 .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    background-color: rgb(245, 229, 239);
+    
+}
+.darkmode .container {
+    background-color: var( --blue);
+  }
+.container {
+    top: 90px;
+}
+.header {
+    position: absolute;
+}
+.deep {
+    font-size: 30px;
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}

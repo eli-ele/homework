@@ -1,0 +1,90 @@
+@media screen and (min-width:1670px) {
+    .container {
+      width: 1670px;
+      height: 1080px;
+      box-sizing: border-box;
+    }
+    * {
+      box-sizing: border-box;
+      
+    }
+    body.darkmode {
+        background-color:var(--black2);
+        color: white; 
+        
+    }
+    .header a:hover {
+      background: linear-gradient(92deg, #a5a4a4 -277.19%, rgba(255, 255, 255, 0.00) 98.79%);
+      border-left: 6px solid rgb(21, 14, 14);
+  }
+      
+  .darkmode .header a:hover {
+      background: linear-gradient(92deg, #FFF -277.19%, rgba(255, 255, 255, 0.00) 98.79%);
+      border-left: 6px solid white;
+  }
+  .home {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 72px;
+  }
+  .weater_menu {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 72px;
+  }
+  .horiscop_menu {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 72px;
+  }
+  .notification_menu {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 72px;
+  }
+  .currency_converter {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 72px;
+  }
+
+    .section1 .container {
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      width: 1400px;
+      height: 1033px;
+      padding: 150px  50px  50px  50px;
+      margin: auto;
+      background-color: rgb(245, 229, 239);
+      border-radius: 18px;
+    }
+    .container {
+      left:200px;
+      top: 35px;
+    }
+    .darkmode .container {
+      background-color: var( --blue);
+    }
+    .deep {
+      position: absolute;
+      top:70px;
+      left: 400px;
+      font-size: 60px;
+      width: 600px;
+    }
+
+
+
+
+
+}
